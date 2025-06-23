@@ -1,16 +1,17 @@
 {
-  "private": true,
+  "name": "example-basic",
   "type": "module",
   "scripts": {
     "dev": "vinxi dev",
     "build": "vinxi build",
-    "start": "vinxi start"
+    "start": "vinxi start",
+    "version": "vinxi version"
   },
   "dependencies": {
-    "@solidjs/start": "^1.1.3",
-    "@tailwindcss/vite": "^4.0.10",
-    "solid-js": "^1.9.5",
-    "typescript": "^5.8.2",
-    "vinxi": "^0.5.3"
+    "@solidjs/meta": "^0.29.4",
+    "@solidjs/router": "^0.15.3",
+    "@solidjs/start": "^1.1.5",
+    "solid-js": "^1.9.7",
+    "vinxi": "^0.5.7"
   }
 }
